@@ -10,6 +10,8 @@ namespace WebApplication3.Controllers
     {
         public ActionResult Index()
         {
+
+            ViewBag.NewMessage = "Thsi is new message";
             return View();
         }
 
